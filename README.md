@@ -26,12 +26,24 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+
+A number guessing game where you try to guess a secret number within a limited number of attempts
+
 - [ ] Detail which bugs you found.
+
+The hints were backwards saying I should guess higher even though my guess was bigger than the secret number. 
+On even numbered attempts, the secret was converted to a string causing type issues.
+There was bugs in the history of entries in the developer debug info. 
+
 - [ ] Explain what fixes you applied.
+
+I swapped the hint messages in check_guess() to fix the hint functionlity.
+I removed the str() conversion so the secret is still an int. 
+I made a couple of other changes to improve functionlity of the game.
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+- ![alt text](image-1.png)
 
 ## 🚀 Stretch Features
 

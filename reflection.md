@@ -60,3 +60,5 @@ I wrapped the secret generation in a check so it only runs when the key doesn't 
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+
+I learned I can give context when asking AI to do things to my codebase, so I can tell it to only change certain functions. With my knowledge as a developer I can pinpoint the bug area, and give AI the context and ask it to fix it. Also, instead of having to manually write test cases, AI comes in very useful here. I might now test every major update or feature I make. 
